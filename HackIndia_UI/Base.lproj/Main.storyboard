@@ -80,6 +80,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IW5-8B-xdM" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="279" y="-393"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="fMo-NA-el1">
