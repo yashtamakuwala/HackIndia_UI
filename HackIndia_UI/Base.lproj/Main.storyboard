@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="9Bc-Xl-SNw">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
@@ -15,25 +15,89 @@
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mV7-Sm-HbH">
-                                <rect key="frame" x="289" y="164" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fxO-dj-coL">
-                                <rect key="frame" x="285" y="285" width="46" height="30"/>
-                                <state key="normal" title="Button">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.0" green="0.69019607843137254" blue="0.8784313725490196" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="925" y="-393"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="vy8-Bl-LwC">
+            <objects>
+                <viewController id="9Bc-Xl-SNw" customClass="ViewController" customModule="HackIndia_UI" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="D8m-tc-EKi"/>
+                        <viewControllerLayoutGuide type="bottom" id="UQq-xk-KMe"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="YLp-FW-fgI">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jarvis" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zW9-aq-xxW">
+                                <rect key="frame" x="219" y="121" width="163" height="78"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="78" id="57P-92-I0G"/>
+                                    <constraint firstAttribute="width" constant="163" id="sqR-TA-ywq"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="64"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nice to meet you." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q4U-VF-N3X">
+                                <rect key="frame" x="185" y="460" width="230" height="34"/>
+                                <color key="backgroundColor" red="0.1701191604" green="0.16224351940000001" blue="0.13736191889999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="230" id="7Ds-PN-eP5"/>
+                                    <constraint firstAttribute="height" constant="34" id="9Vo-1o-3oZ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <color key="textColor" red="0.95815510265458315" green="1" blue="0.9465177279229815" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.10233191287878785" green="0.086962790000464169" blue="0.095218388525378617" alpha="1" colorSpace="calibratedRGB"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Good morning, I am DIY Jarvis, your personal DIY Coach." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cPs-bh-Psa">
+                                <rect key="frame" x="165" y="201" width="271" height="165"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="MR9-YM-2ae"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <color key="textColor" red="0.98139599119999998" green="0.94620769839999996" blue="0.95417232880000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.40392156862745099" green="0.73725490196078436" blue="0.89411764705882346" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="cPs-bh-Psa" firstAttribute="centerX" secondItem="Q4U-VF-N3X" secondAttribute="centerX" id="PtD-pY-6fi"/>
+                            <constraint firstItem="zW9-aq-xxW" firstAttribute="centerX" secondItem="YLp-FW-fgI" secondAttribute="centerX" id="QY7-ad-DHk"/>
+                            <constraint firstItem="UQq-xk-KMe" firstAttribute="top" secondItem="Q4U-VF-N3X" secondAttribute="bottom" constant="106" id="TgW-E7-93Z"/>
+                            <constraint firstItem="cPs-bh-Psa" firstAttribute="centerX" secondItem="zW9-aq-xxW" secondAttribute="centerX" id="Y4B-qr-1o4"/>
+                            <constraint firstItem="cPs-bh-Psa" firstAttribute="top" secondItem="zW9-aq-xxW" secondAttribute="bottom" constant="2" id="kXS-M9-Gl7"/>
+                            <constraint firstItem="zW9-aq-xxW" firstAttribute="top" secondItem="D8m-tc-EKi" secondAttribute="bottom" constant="101" id="wPW-Vh-wpr"/>
+                            <constraint firstItem="Q4U-VF-N3X" firstAttribute="top" secondItem="cPs-bh-Psa" secondAttribute="bottom" constant="94" id="xQa-CN-Tdn"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IW5-8B-xdM" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="fMo-NA-el1">
+            <objects>
+                <viewController id="AfA-rm-eD0" customClass="ViewController" customModule="HackIndia_UI" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="AUU-y8-a5g"/>
+                        <viewControllerLayoutGuide type="bottom" id="FjI-Ik-xGD"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="sZL-RW-BVh">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" red="0.0" green="0.69019607839999997" blue="0.87843137250000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vLa-t6-mSv" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1588" y="-393"/>
         </scene>
     </scenes>
 </document>
