@@ -56,10 +56,10 @@
                                 <nil key="highlightedColor"/>
                                 <color key="shadowColor" red="0.10233191287878785" green="0.086962790000464169" blue="0.095218388525378617" alpha="1" colorSpace="calibratedRGB"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Good morning, I am DIY Jarvis, your personal DIY Coach." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cPs-bh-Psa">
-                                <rect key="frame" x="165" y="201" width="271" height="165"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Good morning, I am DIY Jarvis, your personal DIY Coach." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cPs-bh-Psa">
+                                <rect key="frame" x="165" y="265" width="271" height="165"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="240" id="MR9-YM-2ae"/>
+                                    <constraint firstAttribute="width" constant="271" id="MR9-YM-2ae"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <color key="textColor" red="0.98139599119999998" green="0.94620769839999996" blue="0.95417232880000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -72,9 +72,9 @@
                             <constraint firstItem="zW9-aq-xxW" firstAttribute="centerX" secondItem="YLp-FW-fgI" secondAttribute="centerX" id="QY7-ad-DHk"/>
                             <constraint firstItem="UQq-xk-KMe" firstAttribute="top" secondItem="Q4U-VF-N3X" secondAttribute="bottom" constant="106" id="TgW-E7-93Z"/>
                             <constraint firstItem="cPs-bh-Psa" firstAttribute="centerX" secondItem="zW9-aq-xxW" secondAttribute="centerX" id="Y4B-qr-1o4"/>
-                            <constraint firstItem="cPs-bh-Psa" firstAttribute="top" secondItem="zW9-aq-xxW" secondAttribute="bottom" constant="2" id="kXS-M9-Gl7"/>
+                            <constraint firstItem="cPs-bh-Psa" firstAttribute="top" secondItem="zW9-aq-xxW" secondAttribute="bottom" constant="66" id="kXS-M9-Gl7"/>
                             <constraint firstItem="zW9-aq-xxW" firstAttribute="top" secondItem="D8m-tc-EKi" secondAttribute="bottom" constant="101" id="wPW-Vh-wpr"/>
-                            <constraint firstItem="Q4U-VF-N3X" firstAttribute="top" secondItem="cPs-bh-Psa" secondAttribute="bottom" constant="94" id="xQa-CN-Tdn"/>
+                            <constraint firstItem="Q4U-VF-N3X" firstAttribute="top" secondItem="cPs-bh-Psa" secondAttribute="bottom" constant="30" id="xQa-CN-Tdn"/>
                         </constraints>
                     </view>
                 </viewController>
